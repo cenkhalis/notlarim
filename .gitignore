@@ -1,0 +1,29 @@
+# Nuxt build çıktıları
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Bağımlılıklar
+node_modules
+
+# Loglar
+logs
+*.log
+
+# Sistem dosyaları
+.DS_Store
+.fleet
+.idea
+
+# Ortam değişkenleri (gizli!) — sadece örnek dosya repoya girer
+.env
+.env.*
+!.env.example
+
+# Firebase service account anahtarları (gizli!)
+*service-account*.json
+*serviceAccount*.json
+*firebase-adminsdk*.json
